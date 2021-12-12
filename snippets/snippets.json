@@ -65,5 +65,26 @@
     "prefix": "app.put",
     "body": ["app.put('$1', ${2:(req, res)} => {\n\t${3}\n});"],
     "description": "Routes HTTP PUT requests to the specified path with the specified callback functions."
+  },
+  "app.delete": {
+      "prefix": "app.delete",
+      "body": [
+          "app.delete('$1', ${2:(req, res)} => {\n\t${3}\n});"
+      ],
+      "description": "Routes HTTP DELETE requests to the specified path with the specified callback functions."
+  },
+  "app.render": {
+      "prefix": "app.render",
+      "body": [
+          "app.render('${1}', (${2:err}) => {\n\t$3\n});"
+      ],
+      "description": "Returns the rendered HTML of a view via the callback function. It accepts an optional parameter that is an object containing local variables for the view."
+  },
+  "app.route": {
+      "prefix": "app.route",
+      "body": [
+          "app.route('${1:/}')"
+      ],
+      "description": "Returns an instance of a single route, which you can then use to handle HTTP verbs with optional middleware. Use app.route() to avoid duplicate route names (and thus typo errors)."
   }
 }
