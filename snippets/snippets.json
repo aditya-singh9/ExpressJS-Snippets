@@ -40,5 +40,30 @@
       "app.listen(${1:3000}, ($2) => {\n\t${3:console.log('App listening on port 3000!')};\n});"
     ],
     "description": "Binds and listens for connections on the specified host and port. This method is identical to Node's http.Server.listen()."
+  },
+  "app.param": {
+    "prefix": "app.param",
+    "body": ["app.param('${1}', (${2:req, res, next, id}) => {\n\t$3\n});"],
+    "description": "Add callback triggers to route parameters, where name is the name of the parameter or an array of them, and callback is the callback function. The parameters of the callback function are the request object, the response object, the next middleware, the value of the parameter and the name of the parameter, in that order."
+  },
+  "app.patch": {
+    "prefix": "app.patch",
+    "body": ["app.patch('$1', ${2:(req, res)} => {\n\t${3}\n});"],
+    "description": "Routes HTTP PATCH request to the specifed path with the specified callback functions."
+  },
+  "app.post": {
+    "prefix": "app.post",
+    "body": ["app.post('$1', ${2:(req, res)} => {\n\t${3}\n});"],
+    "description": "Routes HTTP POST requests to the specified path with the specified callback functions."
+  },
+  "app.path": {
+    "prefix": "app.path",
+    "body": ["app.path();"],
+    "description": "Returns the canonical path of the app, a string."
+  },
+  "app.put": {
+    "prefix": "app.put",
+    "body": ["app.put('$1', ${2:(req, res)} => {\n\t${3}\n});"],
+    "description": "Routes HTTP PUT requests to the specified path with the specified callback functions."
   }
 }
