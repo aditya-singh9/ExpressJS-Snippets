@@ -1,65 +1,49 @@
-# expressjs-snippets README
+# ExpressJS Snippets
 
-This is the README for your extension "expressjs-snippets". After writing up a brief description, we recommend including the following sections.
+A collection of snippets for Express.js (https://github.com/expressjs)
 
-## Features
+To initiate just type out express commands and the rest will be autocompleted.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+# Snippets
 
-For example if there is an image subfolder under your extension project workspace:
+| Command      | Description                                                                                                                                                                         |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| app.all      | This method is like the standard app.METHOD() methods, except it matches all HTTP verbs.                                                                                            |
+| app.disable  | Sets the Boolean setting name to false, where name is one of the properties from the app settings table.                                                                            |
+| app.disabled | Returns true if the Boolean setting name is disabled (false), where name is one of the properties from the app settings table.                                                      |
+| app.get      | Express GET request                                                                                                                                                                 |
+| app.listen   | Binds and listens for connections on the specified host and port. This method is identical to Node's http.Server.listen().                                                          |
+| app.param    | Add callback triggers to route parameters, where name is the name of the parameter or an array of them, and callback is the callback function.                                      |
+| app.patch    | Routes HTTP PATCH request to the specifed path with the specified callback functions.                                                                                               |
+| app.post     | Express POST request                                                                                                                                                                |
+| app.put      | Express PUT request                                                                                                                                                                 |
+| app.delete   | Express DELETE request                                                                                                                                                              |
+| app.render   | Returns the rendered HTML of a view via the callback function. It accepts an optional parameter that is an object containing local variables for the view.                          |
+| app.route    | Returns an instance of a single route, which you can then use to handle HTTP verbs with optional middleware. Use app.route() to avoid duplicate route names (and thus typo errors). |
+| app.set      | Assigns setting name to value, where name is one of the properties from the app settings table.                                                                                     |
+| app.use      | Mounts the specified middleware function or functions at the specified path. If path is not specified, it defaults to “/”.                                                          |
+| res.send     | Express RESPONSE object                                                                                                                                                             |
 
-\!\[feature X\]\(images/feature-x.png\)
+## Links
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+[Github](https://github.com/aditya-singh9/ExpressJS-Snippets)
 
-## Requirements
+## Author
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+👤 **Aditya Singh**
 
-## Extension Settings
+- Github: [@aditya-singh9](https://github.com/aditya-singh9)
+- LinkedIn: [@Aditya Singh](https://www.linkedin.com/in/aditya-singh9/)
+- Portfolio: [adityasingh.xyz](https://adityasingh.xyz)
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## 🤝 Contributing
 
-For example:
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/aditya-singh9/ExpressJS-Snippets/issues).
 
-This extension contributes the following settings:
+## Show your support
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+Give a ⭐️ if this project helped you!
 
-## Known Issues
+## 📝 License
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This project is under [MIT](https://github.com/aditya-singh9/ExpressJS-Snippets/blob/main/LICENSE) license.
