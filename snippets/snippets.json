@@ -3,5 +3,25 @@
     "prefix": "app.all",
     "body": ["app.all(${1:'*'}, ${2:requireAuthentication}, ${3:loadUser});"],
     "description": "This method is like the standard app.METHOD() methods, except it matches all HTTP verbs."
+  },
+  "app.disable": {
+    "prefix": "app.disable",
+    "body": ["app.disable('${1}');"],
+    "description": "Sets the Boolean setting name to false, where name is one of the properties from the app settings table. Calling app.set('foo', false) for a Boolean property is the same as calling app.disable('foo')."
+  },
+  "app.disabled": {
+    "prefix": "app.disabled",
+    "body": ["app.disabled('${1}');"],
+    "description": "Sets the Boolean setting name to false, where name is one of the properties from the app settings table."
+  },
+  "app.enable": {
+    "prefix": "app.enable",
+    "body": ["app.enable('${1}');"],
+    "description": "Sets the Boolean setting name to true, where name is one of the properties from the app settings table."
+  },
+  "app.enabled": {
+    "prefix": "app.enabled",
+    "body": ["app.enabled('${1}');"],
+    "description": "Returns true if the setting name is enabled (true), where name is one of the properties from the app settings table."
   }
 }
