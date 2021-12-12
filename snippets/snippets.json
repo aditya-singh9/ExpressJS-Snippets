@@ -1,1 +1,7 @@
-{}
+{
+  "app.all": {
+    "prefix": "app.all",
+    "body": ["app.all(${1:'*'}, ${2:requireAuthentication}, ${3:loadUser});"],
+    "description": "This method is like the standard app.METHOD() methods, except it matches all HTTP verbs."
+  }
+}
