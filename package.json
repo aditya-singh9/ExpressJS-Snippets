@@ -1,8 +1,24 @@
 {
     "name": "expressjs-snippets",
     "displayName": "ExpressJS Snippets",
-    "description": "",
+    "description": "Express Snippets for VS Code",
     "version": "0.0.1",
+    "publisher": "Aditya Singh",
+    "homepage": "https://github.com/aditya-singh9/ExpressJS-Snippets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aditya-singh9/ExpressJS-Snippets"
+    },
+    "bugs": {
+        "url": "https://github.com/aditya-singh9/ExpressJS-Snippets/issues"
+    },
+    "license": "MIT",
+    "keywords": [
+        "Javascript",
+        "Express",
+        "Node",
+        "Snippet"
+    ],
     "engines": {
         "vscode": "^1.63.0"
     },
