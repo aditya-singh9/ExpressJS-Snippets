@@ -23,5 +23,22 @@
     "prefix": "app.enabled",
     "body": ["app.enabled('${1}');"],
     "description": "Returns true if the setting name is enabled (true), where name is one of the properties from the app settings table."
+  },
+  "app.engine": {
+    "prefix": "app.engine",
+    "body": ["app.engine('${1}', ${2});"],
+    "description": "Registers the given template engine callback as ext."
+  },
+  "app.get": {
+    "prefix": "app.get",
+    "body": ["app.get('$1', ${2:(req, res)} => {\n\t${3}\n});"],
+    "description": "Routes HTTP GET request to the specifed path with the specified callback functions."
+  },
+  "app.listen": {
+    "prefix": "app.listen",
+    "body": [
+      "app.listen(${1:3000}, ($2) => {\n\t${3:console.log('App listening on port 3000!')};\n});"
+    ],
+    "description": "Binds and listens for connections on the specified host and port. This method is identical to Node's http.Server.listen()."
   }
 }
