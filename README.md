@@ -1,8 +1,10 @@
 # ExpressJS Snippets
 
-A collection of snippets for Express.js (https://github.com/expressjs)
+A collection of snippets for [Express.js](https://github.com/expressjs)
 
 To initiate just type out express commands and the rest will be autocompleted.
+
+![](https://i.ibb.co/YtXXn1D/demos.gif)
 
 # Snippets
 
