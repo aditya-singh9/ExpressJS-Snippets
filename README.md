@@ -26,10 +26,6 @@ To initiate just type out express commands and the rest will be autocompleted.
 | app.use      | Mounts the specified middleware function or functions at the specified path. If path is not specified, it defaults to “/”.                                                          |
 | res.send     | Express RESPONSE object                                                                                                                                                             |
 
-## Links
-
-[Github](https://github.com/aditya-singh9/ExpressJS-Snippets)
-
 ## Author
 
 👤 **Aditya Singh**
