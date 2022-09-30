@@ -91,6 +91,11 @@
     "body": ["app.use('${1:/path}', (${2:req, res, next}) => {\n\t$3\n});"],
     "description": "Mounts the specified middleware function or functions at the specified path. If path is not specified, it defaults to “/”."
   },
+  "app.catchAll": {
+    "prefix": "app.catchAll",
+    "body": ["app.use(function(req, res) {\n\tres.status(404).json({\n\t\t'${1:message}' : '${2:The endpoint requested does not exist}'\n\t});\n});"],
+    "description": "Define a catch all route for all the invalid requests."
+  },
   "res.send": {
     "prefix": "res.send",
     "body": ["res.send($1);"],
