@@ -25,6 +25,7 @@ To initiate just type out express commands and the rest will be autocompleted.
 | app.set      | Assigns setting name to value, where name is one of the properties from the app settings table.                                                                                     |
 | app.use      | Mounts the specified middleware function or functions at the specified path. If path is not specified, it defaults to “/”.                                                          |
 | res.send     | Express RESPONSE object                                                                                                                                                             |
+| app.catchAll | Define a catch all route for all the invalid requests.                                                             |
 
 ## Author
 
