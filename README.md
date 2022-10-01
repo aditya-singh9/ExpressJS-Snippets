@@ -10,6 +10,7 @@ To initiate just type out express commands and the rest will be autocompleted.
 
 | Command      | Description                                                                                                                                                                         |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| app.create   | This method quickly set up a minimal express app.                                                                                                                                   |
 | app.all      | This method is like the standard app.METHOD() methods, except it matches all HTTP verbs.                                                                                            |
 | app.disable  | Sets the Boolean setting name to false, where name is one of the properties from the app settings table.                                                                            |
 | app.disabled | Returns true if the Boolean setting name is disabled (false), where name is one of the properties from the app settings table.                                                      |

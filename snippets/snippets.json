@@ -1,4 +1,9 @@
 {
+  "app.create": {
+    "prefix": "app.create",
+    "body": ["const express = require('express');\nconst app = express();\n\nconst PORT = process.env.PORT || 3000;\n\napp.get('/', (req, res) => {\n\tres.send('Hello from server');\n});\n\napp.listen(PORT, () => {\n\tconsole.log('Server is listning on port: '+PORT);\n});"],
+    "description": "This method is usefull to setup a basic express app with single command."
+  },
   "app.all": {
     "prefix": "app.all",
     "body": ["app.all(${1:'*'}, ${2:requireAuthentication}, ${3:loadUser});"],
